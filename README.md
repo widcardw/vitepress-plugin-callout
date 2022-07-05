@@ -1,16 +1,14 @@
-# vitepress-plugin-callout
+# vitepress-plugin-callout (WIP)
 
 [![NPM version](https://img.shields.io/npm/v/vitepress-plugin-callout?color=a1b858&label=)](https://www.npmjs.com/package/vitepress-plugin-callout)
 
-## VitePress plugin callout
-
 This is a plugin for vitepress that support callout blocks. The callout block is inspired by [Obsidian](https://obsidian.md).
 
-### Some examples
+## Some examples
 
 ![examples](./img/examples.png)
 
-### Installation
+## Installation
 
 Install the plugin with npm.
 
@@ -39,7 +37,7 @@ Import styles (To be fixed)
 import 'vitepress-plugin-callout/styles.css'
 ```
 
-### Usage
+## Usage
 
 Basic usage.
 
