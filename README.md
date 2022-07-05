@@ -4,6 +4,8 @@
 
 This is a plugin for vitepress that support callout blocks. The callout block is inspired by [Obsidian](https://obsidian.md).
 
+I have no idea how to build css files into dist `¯\_(ツ)_/¯`
+
 ## Some examples
 
 ![examples](./img/examples.png)
