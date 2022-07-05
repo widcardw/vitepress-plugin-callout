@@ -4,8 +4,6 @@
 
 This is a plugin for vitepress that support callout blocks. The callout block is inspired by [Obsidian](https://obsidian.md).
 
-I have no idea how to build css files into dist `¯\_(ツ)_/¯`
-
 ## Some examples
 
 ![examples](./img/examples.png)
@@ -18,7 +16,7 @@ Install the plugin with npm.
 npm install vitepress-plugin-callout
 ```
 
-Then import it into vitepress (To be fixed)
+Then import it into vitepress
 
 ```ts
 // .vitepress/config.ts
@@ -32,11 +30,11 @@ export default {
 }
 ```
 
-Import styles (To be fixed)
+Import styles (I have no idea how to build css files into dist, so try to download it from github and import mannually `¯\_(ツ)_/¯`)
 
 ```ts
 // .vitepress/theme/index.ts
-import 'vitepress-plugin-callout/styles.css'
+import 'path/to/styles.css'
 ```
 
 ## Usage
