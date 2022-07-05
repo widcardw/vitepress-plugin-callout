@@ -8,15 +8,7 @@ This is a plugin for vitepress that support callout blocks. The callout block is
 
 ### Some examples
 
-> [!note] This is a note
-> You can write any text here.
-
-> [!info] You can fold the block by clicking the header
-> If there is nothing in the body of block, the **fold icon** will be hidden.
-
-> [!tip] The title of callout block supports inline markdown syntax like **bold**, _italic_, `inline code`, [link](https://vitepress.vuejs.org/) and (if you add) $\LaTeX$.
-
-All of the callout blocks are expanded by default, except the _example_ block. However, you can change it mannually.
+![examples](./img/examples.png)
 
 ### Installation
 
@@ -64,6 +56,7 @@ If you do not want the callout body, just write the title, and the fold icon wil
 > [!tip] Callout without body
 ```
 
+All of the callout blocks are *expanded* by default, except the _example_ block. However, you can change it mannually.
 If you want to fold the block by default, you can write `open` or `closed` in the options.
 
 ```markdown
