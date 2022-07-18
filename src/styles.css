@@ -24,6 +24,7 @@
 .callout-fold {
     transform: rotate(-90deg);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
+    display:  flex;
 }
 
 .custom-callout {
